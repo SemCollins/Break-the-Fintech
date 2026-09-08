@@ -1,6 +1,6 @@
 # Breaking NexaPay — Threat Model & Attack Surface Assessment
 
-**House of Practice — Round One — Cybersecurity Track ("Break the Fintech")**
+**Cybersecurity Track ("Break the Fintech")**
 Author: Semekor Collins
 
 ## What this is
@@ -21,14 +21,14 @@ built to explain what it showed.
 
 | File | What it is |
 |---|---|
-| `Break_the_Fintech_Submission_SemekorCollins.docx` | Full submission: threat model, risk register, attack scenarios, risk prioritisation, security recommendations, proposed architecture, incident-response plan |
+| `Break_the_Fintech.pdf` | Full submission: threat model, risk register, attack scenarios, risk prioritisation, security recommendations, proposed architecture, incident-response plan |
 | `risk_matrix.png` | Likelihood vs. impact chart for all 11 identified vulnerabilities |
 | `architecture.png` | Proposed security architecture — where enforcement should sit in the transaction path |
 | `house_of_practice_financial_transactions.csv` | The transaction sample used as grounding evidence throughout |
 
 ## Headline finding
 
-The dataset's `risk_score` field correlates with real behavioural signals
+The dataset's `risk_score` field correlates with real behavioral signals
 (velocity, device changes, failed attempts) but shows almost no relationship
 with transaction outcome — **82% of the riskiest 10% of transactions still
 completed successfully.** A score that doesn't gate anything isn't a minor
